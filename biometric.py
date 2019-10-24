@@ -102,8 +102,8 @@ def verifyPassword():
 def configPort():
     #TODO: Configure serial port
     print("Configure port settings")
-    portSettings[0] = "/dev/ttyUSB0" #input("Enter serial port number: ")
-    portSettings[1] = 9600 #int(input("Enter baud rate: "))
+    portSettings[0] = input("Enter serial port number: ")
+    portSettings[1] = int(input("Enter baud rate: "))
     print(portSettings)
     pass
 
